@@ -14,8 +14,6 @@ st.title("🤖 Chat with Multiple CSVs")
 # 1. Check for the .env file and API key
 api_key = os.getenv("GEMINI_API_KEY")
 
-api_key="AIzaSyBXLcv3UBXx0QQQDHqSl-h_eqt3_xgyyrM"
-
 if not api_key:
     st.warning("⚠️ **Gemini API Key not found.** Please set up your API key to continue.")
     st.info(
